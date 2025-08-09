@@ -207,7 +207,7 @@ function isListItem(text: string, dotIndex: number): boolean {
   return listPattern.test(beforeDot);
 }
 
-function isTitle(text: string): boolean {
+export function isTitle(text: string): boolean {
   const trimmed = text.trim();
   if (trimmed.length === 0) return false;
 

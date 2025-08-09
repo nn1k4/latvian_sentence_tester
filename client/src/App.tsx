@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import { splitIntoSentencesAdvanced } from "./utils/latvianSegmentation";
+import { splitIntoSentencesAdvanced, isTitle } from "./utils/latvianSegmentation";
 
 // ============================================================================
 // REACT КОМПОНЕНТ
