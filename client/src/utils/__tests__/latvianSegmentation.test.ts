@@ -1,4 +1,4 @@
-import { splitIntoSentencesAdvanced } from "./latvianSegmentation";
+import { splitIntoSentencesAdvanced } from "../latvianSegmentation";
 
 describe("splitIntoSentencesAdvanced", () => {
   it("splits text into sentences", () => {
