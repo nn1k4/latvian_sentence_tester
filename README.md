@@ -106,7 +106,7 @@ npm run lint:fix
 
 ## 🏗️ Архитектура проекта
 
-```
+```text
 latvian_sentence_tester/
 ├── 📄 package.json              # Зависимости и скрипты
 ├── 📄 vite.config.ts            # Конфигурация Vite
@@ -145,7 +145,7 @@ latvian_sentence_tester/
 
 **Входной текст:**
 
-```
+```text
 ZIŅAS
 Šodien ir 5. augustā. Anna pamostas agri.
 Dr. Bērziņš dzīvo 3. stāvā.

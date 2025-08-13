@@ -132,7 +132,7 @@ const GEOGRAPHIC_TERMS = [
   "korp.",
 ];
 
-function isDatePattern(text: string, dotIndex: number): boolean {
+export function isDatePattern(text: string, dotIndex: number): boolean {
   const beforeDot = text.substring(0, dotIndex).trim();
   const afterDot = text.substring(dotIndex + 1).trim();
 
